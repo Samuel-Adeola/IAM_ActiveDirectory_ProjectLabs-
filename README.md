@@ -222,7 +222,6 @@ Key Meetings:
 | Final Project Review | Week 12 | All stakeholders	| Present final system, lessons learned, project closure. |
 
 
-
 4.4 Project Team and Stakeholders Roles and Responsibilities at SidodatTech
 The Project Team and Stakeholders section provides an overview of the individuals, groups, or entities who are involved in the Active Directory Domain Services (AD DS) Implementation and Management project. Their roles and responsibilities are essential for the successful execution and delivery of the project. In this section, we outline the primary project team members, their responsibilities, and the stakeholders who will be impacted by the project.
 
@@ -231,8 +230,7 @@ Project Team Members:
 | Role | Responsibilities |
 |------|------|
 | Project Manager (Scrum Master) | Develop the project plan and timelines, Coordinate with all team members and stakeholders, Track project progress and make necessary adjustments. Manage risk, scope, and budget, Ensure that all deliverables are achieved as scheduled. |
-| IAM Administrator	| Design the Active Directory structure (OUs, users, groups, and permissions), Implement user account configurations and organizational units, Set up and manage security policies and access control mechanisms,
-Perform troubleshooting and ensure a secure, stable environment, Remove obsolete OUs and update configurations as needed. |
+| IAM Administrator	| Design the Active Directory structure (OUs, users, groups, and permissions), Implement user account configurations and organizational units, Set up and manage security policies and access control mechanisms, Perform troubleshooting and ensure a secure, stable environment, Remove obsolete OUs and update configurations as needed. |
 |Systems Administrator | Manage server configurations (including CorpDC server), Set up and maintain the hardware and software infrastructure needed for AD DS, Provide system support for any issues related to Active Directory implementation, Assist in network connectivity and security for Active Directory. |
 | IT Security and Compliance Specialist	| Define and implement security measures for user accounts and system access, Create and manage global security groups, Design security policies for password management and user restrictions, Perform audits to ensure compliance with internal security policies and external regulations. |
 | Support and Helpdesk Technician | Provide technical assistance to users for login issues and account management, Resolve user account-related problems, such as access denial and permission issues, Maintain records of helpdesk tickets related to Active Directory issues. |
@@ -242,8 +240,8 @@ Perform troubleshooting and ensure a secure, stable environment, Remove obsolete
 Effective communication was vital for successful Agile project execution, particularly given the simulated environment's dynamic conditions.
 Communication Plan:
 | Audience | Information Type | Frequency | Communication Method |
+|-----|-----|-----|-----|
 | Project Team | Sprint progress, blockers, task assignments | Daily (standups) | Microsoft Teams, Email |
 | Stakeholders (CTO, HR, Cybersecurity)	| Sprint progress updates, demo reviews	| Bi-weekly (Sprint Review)		Sprint Review Meetings (MS Teams and Demo) |
 | Documentation Updates	| Project plans, technical runbooks | Weekly | Confluence, SharePoint | 
 | Executive Reporting |	High-level project updates, risks, and milestones | Monthly	| Executive Summary Emails, Reports |
-
