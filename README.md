@@ -183,7 +183,7 @@ Agile enabled SidodatTech’s project team to rapidly iterate on directory struc
 6.3 Project Timeline
 The project was completed over 12 weeks, divided into six two-week sprints:
 
-| Project Timeline  |
+| Project Timeline |  |
 |----|---|
 | Phase | Week(s)  | Deliverables |
 |Project Initiation | Week 1 | Kickoff meeting, environment preparation, scope definition. |
