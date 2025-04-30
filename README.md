@@ -181,10 +181,8 @@ Agile enabled SidodatTech’s project team to rapidly iterate on directory struc
 
 
 6.3 Project Timeline
-The project was completed over 12 weeks, divided into six two-week sprints:
+The project will be completed over 12 weeks, divided into six two-week sprints:
 
-
-|----|---|
 | Phase | Week(s)  | Deliverables |
 |-------|-------|-------|
 |Project Initiation | Week 1 | Kickoff meeting, environment preparation, scope definition. |
@@ -197,6 +195,53 @@ The project was completed over 12 weeks, divided into six two-week sprints:
 
 
 
+
+4.4 Stakeholders and Meetings
+Stakeholders:
+
+| Stakeholder | Role | Meetings Involvement |
+|------|----|----|
+| Project Sponsor (SidodatTech CTO)	| Oversight, budget approval, and final validation.	| Attended project kickoff, Sprint Reviews, and Closure meetings. |
+| IT Operations Lead | Provided requirements for OU and group structure, environment resource allocation. | 	Participated in Sprint Planning, Sprint Reviews, and Weekly Standups. |
+| Cybersecurity Officer	| Validated permission delegation models and security policies.	| Engaged during Sprint 3, Sprint 5, and Final Review meetings. |
+| HR Representative |	Provided employee structure information for user creation scenarios. | Consulted during Sprint 4 for accurate departmental account setups. |
+
+
+
+
+
+Key Meetings:
+
+| Meeting Type | Frequency | Participants |	Purpose |
+|--------|------|-------|-------|
+| Project Kick-off | Week 1 | All stakeholders |Define objectives, scope, deliverables, and timelines |
+| Sprint Planning | Bi-weekly | Project Team, IT Ops Lead, Information Security Officer	Define sprint goals, user stories, and tasks. |
+| Daily Standups | Daily (15 min) | Project team | Report progress, blockers, and coordinate activities. |
+| Sprint Review/Demo | End of each Sprint | All stakeholders | Demonstrate deliverables, collect feedback, and adapt the roadmap. |
+| Sprint Retrospective | End of each Sprint | Project team | Reflect on sprint execution, identify improvements. |
+| Final Project Review | Week 12 | All stakeholders	| Present final system, lessons learned, project closure. |
+
+
+
+
+4.4 Project Team and Stakeholders Roles and Responsibilities at SidodatTech
+The Project Team and Stakeholders section provides an overview of the individuals, groups, or entities who are involved in the Active Directory Domain Services (AD DS) Implementation and Management project. Their roles and responsibilities are essential for the successful execution and delivery of the project. In this section, we outline the primary project team members, their responsibilities, and the stakeholders who will be impacted by the project.
+
+Project Team Members: 
+
+| Role | Responsibilities |
+|------|------|
+| Project Manager 
+(Scrum Master) |
+•	Develop the project plan and timelines.
+
+•	Coordinate with all team members and stakeholders.
+
+•	Track project progress and make necessary adjustments.
+
+•	Manage risk, scope, and budget.
+
+•	Ensure that all deliverables are achieved as scheduled. |
 
 
 
