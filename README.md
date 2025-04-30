@@ -185,7 +185,7 @@ The project was completed over 12 weeks, divided into six two-week sprints:
 
 |Project Timeline |
 | Phase | Week(s)  | Deliverables |
-
+|-------|---------|-------------|
 |Project Initiation | Week 1 | Kickoff meeting, environment preparation, scope definition. |
 
 | Sprint 1: Infrastructure Setup | Weeks 1–2 | Hyper-V installation, CorpDC VM deployment, Windows Server 2022 installation, basic network configuration. |
