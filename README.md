@@ -185,10 +185,23 @@ The project was completed over 12 weeks, divided into six two-week sprints:
 
 |Project Timeline |
 | Phase | Week(s)  | Deliverables |
+
 |Project Initiation | Week 1 | Kickoff meeting, environment preparation, scope definition. |
+
 | Sprint 1: Infrastructure Setup | Weeks 1–2 | Hyper-V installation, CorpDC VM deployment, Windows Server 2022 installation, basic network configuration. |
+
 | Sprint 2: Domain Configuration | Weeks 3–4 | Promotion of CorpDC to Domain Controller, creation of CorpNet.com domain, installation of DNS/DHCP roles. |
+
 | Sprint 3: OU and Delegation Design | Weeks 5–6 | Structuring of Organizational Units (OUs) and delegation of administrative permissions. |
+
 | Sprint 4: User/Computer Object Management	| Weeks 7–8 | Creation of test user accounts, security groups, and computer accounts using PowerShell automation. |
+
 | Sprint 5: Group Policies (GPOs) and Security Hardening | Week 9-10 | Development and application of Group Policies for security baselines and account policies. |
+
 |Sprint 6: Monitoring, Documentation, Closure | Weeks 11–12 | Event monitoring setup, stakeholder review meetings, project documentation finalization, and project closure.|
+
+
+
+
+
+
