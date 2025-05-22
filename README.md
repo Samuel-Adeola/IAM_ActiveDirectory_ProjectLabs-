@@ -26,6 +26,7 @@ To address these challenges, SidodatTech has commissioned a project to design an
 ##	Table of Contents
 
 Executive Summary
+
 Project Background
 1. Introduction
 2. Objectives
