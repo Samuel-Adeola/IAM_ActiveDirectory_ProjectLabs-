@@ -41,29 +41,23 @@ Project Background
 
 6. Project Methodology - Agile Model: Justification, Project Team and Stakeholders, Roles and Responsibilities, Project Timeline, Stakeholders and Meetings, Roles and Responsibilities, Communication Plan
 
-7. Project Timeline
+7. Risk Management
 
-8. Roles and Responsibilities
+8. Implementation Stages
 
-9. Meetings and Communication Plan
+9. Testing and Validation
 
-10. Risk Management
+10. Expected Outcomes and Success Criteria
 
-11. Implementation Stages
+11. Conclusion
 
-12. Testing and Validation
-
-13. Expected Outcomes and Success Criteria
-
-14. Conclusion
-
-15. References
+12. References
 
 
 ##	Executive Summary
 The increasing need for organizations to safeguard their digital infrastructure, protect sensitive information, and streamline user management processes has made it imperative for companies like SidodatTech to adopt structured identity and access management systems. At the core of this strategy is the implementation of Active Directory Domain Services (AD DS) on a Hyper-V guest server named CorpDC, hosted within the CorpNet.local domain. This central directory service supports network resource management, enforces security policies, and ensures compliance with industry standards. This project focused on the design, deployment, and management of AD DS to create a centralized environment that facilitates organizational growth while enhancing security, resource allocation, and operational efficiency. The deployment was carried out on CorpDC, the primary domain controller, hosted on Hyper-V, with CorpServer supporting supplementary functions such as DNS, DHCP, and File Services to reinforce domain functionality.
 
-The implementation process involved several key steps. Initially, the project team identified departments within SidodatTech and mapped them to corresponding Organizational Units (OUs) within the CorpDC domain controller on CorpNet.local. The IT team then proceeded with the creation of computer accounts for essential devices, such as the Sales team's laptops, and configured user accounts in accordance with Role-Based Access Control (RBAC) policies. Specific account management tasks were carried out, including renaming user accounts, resetting passwords, disabling dormant accounts, and removing outdated restrictions from legacy configurations.
+The implementation process involved several key steps. Initially, the project team identified departments within SidodatTech and mapped them to corresponding Organizational Units (OUs) within the CorpDC domain controller on CorpNet.local. The IT team then proceeded with the creation of computer accounts for essential devices, such as the Sales team's laptops, and configured user accounts following Role-Based Access Control (RBAC) policies. Specific account management tasks were carried out, including renaming user accounts, resetting passwords, disabling dormant accounts, and removing outdated restrictions from legacy configurations.
 Security improvements were central to this project. Global security groups and Group Policy Objects (GPOs) were introduced within the CorpNet.local domain to control access to sensitive corporate resources managed by CorpDC. Clearly defined administrative roles and permissions enabled efficient delegation of tasks. This not only enhanced security by enforcing the principle of least privilege but also reduced the workload on senior IT personnel by empowering department-level administrators to manage their respective resources within defined boundaries.
 
 This project is expected to significantly elevate SidodatTech’s business operations by optimizing user and resource management, enhancing system security, and reducing manual administrative overhead. By effectively managing Active Directory objects and implementing standardized access controls on CorpDC, the organization will benefit from improved operational efficiency, better regulatory compliance, and a lower risk of unauthorized access. The delegation of administrative privileges and segregation of duties will further reduce internal security risks while streamlining IT workflows.
@@ -79,7 +73,7 @@ In the rapidly evolving landscape of modern information technology, the implemen
 
 Historically, SidodatTech’s user and resource management had been executed in a decentralized manner, leading to duplicated administrative efforts, security misconfigurations, and inconsistent application of access controls. As the organization scaled, these inefficiencies began to manifest in increased IT support incidents, prolonged user onboarding times, and limited visibility into permission structures across departments. The absence of a unified directory service has also posed challenges in enforcing compliance with industry security frameworks such as ISO/IEC 27001 and NIST SP 800-53, particularly in the management of identity lifecycle and access rights delegation.
 
-This project emerges as a strategic initiative to implement a robust AD DS environment hosted on CorpDC under the CorpNet.local domain, aligning with best practices in enterprise IT management. The goal is to create a secure, manageable, and scalable directory infrastructure that reflects SidodatTech’s departmental structure while enabling efficient user account provisioning, centralized resource access, and enforceable group policies. The deployment process includes the restructuring of Organizational Units (OUs), creation and management of security groups, and assignment of administrative roles using delegated permissions, facilitated and controlled through the CorpDC server.
+This project emerges as a strategic initiative to implement a robust Active Directory Domain Services (AD DS) environment hosted on CorpDC under CorpNet.local domain, aligning with best practices in enterprise IT management. The goal is to create a secure, manageable, and scalable directory infrastructure that reflects SidodatTech’s departmental structure while enabling efficient user account provisioning, centralized resource access, and enforceable group policies. The deployment process involves restructuring Organizational Units (OUs), creating and managing security groups, and assigning administrative roles using delegated permissions, all of which are facilitated and controlled through the CorpDC server.
 
 By integrating AD DS into SidodatTech’s core infrastructure via CorpDC and CorpServer, the organization will not only enhance its IT service delivery but also lay the foundation for more advanced directory-integrated technologies such as Group Policy Object (GPO) automation, Role-Based Access Control (RBAC), and future hybrid identity federation with cloud platforms. This initiative is both a response to current operational challenges and a proactive measure to future-proof the organization’s digital infrastructure.
 
@@ -251,7 +245,7 @@ Project Team Members:
 
 | Role | Responsibilities |
 |------|------|
-| Project Manager (Scrum Master) | Develop the project plan and timelines, Coordinate with all team members and stakeholders, Track project progress and make necessary adjustments. Manage risk, scope, and budget, Ensure that all deliverables are achieved as scheduled. |
+| Project Manager (Scrum Master) | Develop the project plan and timelines, Coordinate with all team members and stakeholders, Track project progress, and make necessary adjustments. Manage risk, scope, and budget. Ensure that all deliverables are achieved as scheduled. |
 | IAM Administrator	| Design the Active Directory structure (OUs, users, groups, and permissions), Implement user account configurations and organizational units, Set up and manage security policies and access control mechanisms, Perform troubleshooting and ensure a secure, stable environment, Remove obsolete OUs and update configurations as needed. |
 |Systems Administrator | Manage server configurations (including CorpDC server), Set up and maintain the hardware and software infrastructure needed for AD DS, Provide system support for any issues related to Active Directory implementation, Assist in network connectivity and security for Active Directory. |
 | IT Security and Compliance Specialist	| Define and implement security measures for user accounts and system access, Create and manage global security groups, Design security policies for password management and user restrictions, Perform audits to ensure compliance with internal security policies and external regulations. |
